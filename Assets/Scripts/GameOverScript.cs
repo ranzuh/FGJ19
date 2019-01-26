@@ -12,6 +12,7 @@ public class GameOverScript : MonoBehaviour
 
     [SerializeField] private Text gameOverText;
     [SerializeField] private Puukkojamppa puukkojamppa;
+    [SerializeField] private Puukkojamppa puukkojamppa2;
     [SerializeField] private PlayerStatsScript playerStats;
     [SerializeField] private PauseGameScript pauseGame;
 
@@ -39,7 +40,9 @@ public class GameOverScript : MonoBehaviour
 
     public void PlayerDied()
     {
-        if (playerStats.hunger >= 100 || playerStats.thirsty >= 100 || playerStats.cold >= 100 || puukkojamppa.playerStabbed == true)
+        if (playerStats.hunger >= 100 || playerStats.thirsty >= 100 
+        || playerStats.cold >= 100 || puukkojamppa.playerStabbed == true
+        || puukkojamppa2.playerStabbed == true)
         {
             playerDied = true;
         }
