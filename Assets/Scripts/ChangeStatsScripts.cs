@@ -14,10 +14,12 @@ public class ChangeStatsScripts : MonoBehaviour
     public float changeCold;
     public float changeMoney;
 
+    private bool clicked = false;
+
 
     public void Update()
     {
-        if (playerStats.CanBuy(changeMoney))
+        if (playerStats.CanBuy(changeMoney) && clicked == false)
         {
             choiseButton.interactable = true;
         }
@@ -26,6 +28,12 @@ public class ChangeStatsScripts : MonoBehaviour
             choiseButton.interactable = false;
         }
 
+    }
+
+
+    public void ActionDone()
+    {
+        clicked = true;
     }
 
 
