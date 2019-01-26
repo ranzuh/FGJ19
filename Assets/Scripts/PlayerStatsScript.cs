@@ -11,6 +11,9 @@ public class PlayerStatsScript : MonoBehaviour
     public float fatigue = 50;
     public float cold = 50;
     public float money = 100;
+    public float loss = 0.1f;
+    public bool canBuy = true;
+
 
     [SerializeField] private Text hungerText;
     [SerializeField] private Text thirstyText;
@@ -22,24 +25,85 @@ public class PlayerStatsScript : MonoBehaviour
     public void Update()
     {
 
-        hungerText.text = hunger.ToString();
-        thirstyText.text = thirsty.ToString();
-        fatigueText.text = fatigue.ToString();
-        coldText.text = cold.ToString();
-        moneyText.text = money.ToString();
+        hungerText.text = "Hunger: " + hunger.ToString("F0");
+        thirstyText.text = "Thirsty: " + thirsty.ToString("F0");
+        fatigueText.text = "Fatigue: " + fatigue.ToString("F0");
+        coldText.text = "Cold: " + cold.ToString("F0");
+        moneyText.text = "Money: " + money.ToString("F0");
+
+        if (hunger > 0)
+        {
+            if (hunger > 100)
+            {
+                hunger = 100;
+            }
+        hunger += loss * Time.deltaTime * 0.5f;
+        }
+
+        else
+        {
+            hunger = 0;
+        }
+
+        if (thirsty > 0)
+        {
+            if (thirsty > 100)
+            {
+                thirsty = 100;
+            }
+        thirsty += loss * Time.deltaTime * 0.5f;
+
+        }
+
+        else
+        {
+            thirsty = 0;
+        }
+
+        if (fatigue > 0)
+        {
+            if (fatigue > 100)
+            {
+                fatigue = 100;
+            }
+        fatigue += loss * Time.deltaTime * 0.7f;
+
+        }
+
+        else
+        {
+            fatigue = 0;
+        }
+
+        if (cold > 0)
+        {
+            if (cold > 100)
+            {
+                cold = 100;
+            }
+            cold += loss * Time.deltaTime * 1f;
+
+        }
+
+        else
+        {
+            cold = 0;
+        }
 
     }
 
 
-    public void ChangeStats(float changeHunger, float changeThirsty, float changeFatigue, float changeCold, float changeMoney)
+    public bool CanBuy(float changeMoney)
     {
-
-        hunger = hunger + changeHunger;
-        thirsty = thirsty + changeThirsty;
-        fatigue = fatigue + changeFatigue;
-        cold = cold + changeCold;
-        money = money + changeMoney;
-
+        if (money + changeMoney > 0)
+        {
+            canBuy = true;
+        }
+        else
+        {
+            canBuy = false;
+        }
+        return canBuy;
     }
 
 }
