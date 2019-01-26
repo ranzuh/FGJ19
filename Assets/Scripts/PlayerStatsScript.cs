@@ -12,6 +12,7 @@ public class PlayerStatsScript : MonoBehaviour
     public float cold = 50;
     public float money = 100;
     public float loss = 0.1f;
+
     public bool canBuy = true;
 
     public float hungerMultiplier = 0.5f;
@@ -110,4 +111,5 @@ public class PlayerStatsScript : MonoBehaviour
         return canBuy;
     }
 
+    
 }

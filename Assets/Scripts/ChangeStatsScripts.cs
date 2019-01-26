@@ -14,7 +14,7 @@ public class ChangeStatsScripts : MonoBehaviour
     public float changeCold;
     public float changeMoney;
 
-    private bool clicked = false;
+    public bool clicked = false;
 
 
     public void Update()

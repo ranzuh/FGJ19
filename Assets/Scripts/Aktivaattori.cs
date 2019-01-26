@@ -5,6 +5,7 @@ using UnityEngine;
 public class Aktivaattori : MonoBehaviour
 {
     public Transform panel;
+    public Transform spaceImage;
     bool playerOnTrigger = false;
     
     void Update() {
@@ -22,17 +23,25 @@ public class Aktivaattori : MonoBehaviour
         else if (Input.GetKeyDown("space")) {
             panel.gameObject.SetActive(false);
         }
+
+        bool clicked = panel.transform.GetChild(1).GetComponent<ChangeStatsScripts>().clicked;
+        if(clicked) {
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
     
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
             playerOnTrigger = true;
+            spaceImage.gameObject.SetActive(true);
     }
     
     void OnTriggerExit2D(Collider2D other) {
         if(other.tag == "Player")
             playerOnTrigger = false;
             panel.gameObject.SetActive(false);
+            spaceImage.gameObject.SetActive(false);
+            
     }
 }
