@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: c5cf763aac7d3426eaa6e28b78083445
   - enabled: 1
+    path: Assets/Scenes/EndGameScene.unity
+    guid: b796cc0a91eb657459870911af2424ed
+  - enabled: 1
     path: Assets/Scenes/Antti'sWorkScene.unity
     guid: 89d1e51944affe948839af89e043f13d
   - enabled: 1

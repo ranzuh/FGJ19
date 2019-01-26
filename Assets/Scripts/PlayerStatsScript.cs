@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class PlayerStatsScript : MonoBehaviour
 {
 
-    public float hunger;
-    public float thirsty;
-    public float fatigue;
-    public float cold;
-    public float money;
+    public float hunger = 50;
+    public float thirsty = 50;
+    public float fatigue = 50;
+    public float cold = 50;
+    public float money = 100;
 
     [SerializeField] private Text hungerText;
     [SerializeField] private Text thirstyText;
