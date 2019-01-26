@@ -12,6 +12,12 @@ public class PlayerStatsScript : MonoBehaviour
     public float cold = 50;
     public float money = 100;
     public float loss = 0.1f;
+
+    public float hungerMultiplier = 0.5f;
+    public float thirstMultiplier = 0.5f;
+    public float fatigueMultiplier = 0.7f;
+    public float coldMultiplier = 0.1f;
+
     public bool canBuy = true;
 
 
@@ -37,7 +43,7 @@ public class PlayerStatsScript : MonoBehaviour
             {
                 hunger = 100;
             }
-        hunger += loss * Time.deltaTime * 0.5f;
+        hunger += loss * Time.deltaTime * hungerMultiplier;
         }
 
         else
@@ -51,7 +57,7 @@ public class PlayerStatsScript : MonoBehaviour
             {
                 thirsty = 100;
             }
-        thirsty += loss * Time.deltaTime * 0.5f;
+        thirsty += loss * Time.deltaTime * thirstMultiplier;
 
         }
 
@@ -66,7 +72,7 @@ public class PlayerStatsScript : MonoBehaviour
             {
                 fatigue = 100;
             }
-        fatigue += loss * Time.deltaTime * 0.7f;
+        fatigue += loss * Time.deltaTime * fatigueMultiplier;
 
         }
 
@@ -81,7 +87,7 @@ public class PlayerStatsScript : MonoBehaviour
             {
                 cold = 100;
             }
-            cold += loss * Time.deltaTime * 1f;
+            cold += loss * Time.deltaTime * coldMultiplier;
 
         }
 
@@ -106,4 +112,5 @@ public class PlayerStatsScript : MonoBehaviour
         return canBuy;
     }
 
+    
 }

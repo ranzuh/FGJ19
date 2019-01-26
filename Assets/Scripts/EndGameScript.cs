@@ -9,6 +9,7 @@ public class EndGameScript : MonoBehaviour
     public CanvasGroup canvasGroup;
     public bool playerOntrigger = false;
     public float delayTime;
+    public int sceneToLoad = 2;
 
 
     private void Update()
@@ -55,7 +56,7 @@ public class EndGameScript : MonoBehaviour
 
     public void DelayedScene()
     {
-        sceneController.LoadSceneByIndex(2);
+        sceneController.LoadSceneByIndex(sceneToLoad);
     }
 
 }
