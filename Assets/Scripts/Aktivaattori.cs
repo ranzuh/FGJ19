@@ -23,6 +23,11 @@ public class Aktivaattori : MonoBehaviour
         else if (Input.GetKeyDown("space")) {
             panel.gameObject.SetActive(false);
         }
+
+        bool clicked = panel.transform.GetChild(1).GetComponent<ChangeStatsScripts>().clicked;
+        if(clicked) {
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
     
     void OnTriggerEnter2D(Collider2D other)

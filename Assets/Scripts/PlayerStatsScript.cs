@@ -13,11 +13,6 @@ public class PlayerStatsScript : MonoBehaviour
     public float money = 100;
     public float loss = 0.1f;
 
-    public float hungerMultiplier = 0.5f;
-    public float thirstMultiplier = 0.5f;
-    public float fatigueMultiplier = 0.7f;
-    public float coldMultiplier = 0.1f;
-
     public bool canBuy = true;
 
     public float hungerMultiplier = 0.5f;
