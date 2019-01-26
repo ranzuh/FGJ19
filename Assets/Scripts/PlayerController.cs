@@ -18,7 +18,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float direction = Input.GetAxis("Horizontal");
-        transform.Translate(Vector2.right * direction * Time.deltaTime * speed);
+        if(transform.position.x > -10 || direction > 0) {
+            transform.Translate(Vector2.right * direction * Time.deltaTime * speed);
+        }
         
 
         // TODO Käännä ukkeli

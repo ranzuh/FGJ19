@@ -6,7 +6,9 @@ public class Puukkojamppa : MonoBehaviour
 {
     public float speed = 3;
     void Start() {
-        
+        if(gameObject.activeSelf) {
+            gameObject.SetActive(false);
+        }
     }
     void Update() {
         transform.Translate(Vector2.right * Time.deltaTime * speed);
