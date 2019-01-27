@@ -1036,11 +1036,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.9999915
       objectReference: {fileID: 0}
-    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
-        type: 3}
-      propertyPath: m_Text
-      value: Buy a hot dog?
-      objectReference: {fileID: 0}
     - target: {fileID: 107357561309473439, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: changeHunger
@@ -1051,6 +1046,11 @@ PrefabInstance:
       propertyPath: playerStats
       value: 
       objectReference: {fileID: 923934128}
+    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
+        type: 3}
+      propertyPath: m_Text
+      value: Buy a hot dog?
+      objectReference: {fileID: 0}
     - target: {fileID: 107357561051586089, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: m_Text
@@ -2071,11 +2071,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
-        type: 3}
-      propertyPath: m_Text
-      value: Cold freezing pizza left by somebody.
-      objectReference: {fileID: 0}
     - target: {fileID: 107357561309473439, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: playerStats
@@ -2090,6 +2085,11 @@ PrefabInstance:
         type: 3}
       propertyPath: changeCold
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
+        type: 3}
+      propertyPath: m_Text
+      value: Cold freezing pizza left by somebody.
       objectReference: {fileID: 0}
     - target: {fileID: 107357561051586089, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
@@ -3377,11 +3377,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.9999915
       objectReference: {fileID: 0}
-    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
-        type: 3}
-      propertyPath: m_Text
-      value: Buy a hot dog?
-      objectReference: {fileID: 0}
     - target: {fileID: 107357561309473439, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: changeHunger
@@ -3392,6 +3387,11 @@ PrefabInstance:
       propertyPath: playerStats
       value: 
       objectReference: {fileID: 923934128}
+    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
+        type: 3}
+      propertyPath: m_Text
+      value: Buy a hot dog?
+      objectReference: {fileID: 0}
     - target: {fileID: 107357561051586089, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: m_Text
@@ -3406,11 +3406,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 352632858}
     m_Modifications:
-    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Aktivaattori
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968349, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3476,16 +3471,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.43172583
       objectReference: {fileID: 0}
+    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Aktivaattori
+      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968350, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: panel
       value: 
       objectReference: {fileID: 880974760}
-    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916968359727911, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3535,6 +3530,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c13ac273555be4790e8cf4bee7d9ab, type: 3}
@@ -5499,11 +5499,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
-        type: 3}
-      propertyPath: m_Text
-      value: Cold freezing pizza left by somebody.
-      objectReference: {fileID: 0}
     - target: {fileID: 107357561309473439, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: playerStats
@@ -5518,6 +5513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: changeCold
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
+        type: 3}
+      propertyPath: m_Text
+      value: Cold freezing pizza left by somebody.
       objectReference: {fileID: 0}
     - target: {fileID: 107357561051586089, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
@@ -5841,11 +5841,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2072235871}
     m_Modifications:
-    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Aktivaattori
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968349, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5900,6 +5895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Aktivaattori
       objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968350, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
@@ -10038,11 +10038,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1250204014}
     m_Modifications:
-    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Aktivaattori
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968349, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10108,16 +10103,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.43172583
       objectReference: {fileID: 0}
+    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Aktivaattori
+      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968350, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: panel
       value: 
       objectReference: {fileID: 270899868}
-    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916968359727911, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10167,6 +10162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c13ac273555be4790e8cf4bee7d9ab, type: 3}
@@ -10546,7 +10546,6 @@ Transform:
   m_GameObject: {fileID: 1241319352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3, y: 3.16, z: -10}
-  m_LocalPosition: {x: -2, y: 3.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10797,11 +10796,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1727050419}
     m_Modifications:
-    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Aktivaattori
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968349, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10867,16 +10861,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.43172583
       objectReference: {fileID: 0}
+    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Aktivaattori
+      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968350, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: panel
       value: 
       objectReference: {fileID: 1073532131}
-    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916968359727911, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10926,6 +10920,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c13ac273555be4790e8cf4bee7d9ab, type: 3}
@@ -12098,11 +12097,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
-        type: 3}
-      propertyPath: m_Text
-      value: Cold freezing pizza left by somebody.
-      objectReference: {fileID: 0}
     - target: {fileID: 107357561309473439, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: playerStats
@@ -12117,6 +12111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: changeCold
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
+        type: 3}
+      propertyPath: m_Text
+      value: Cold freezing pizza left by somebody.
       objectReference: {fileID: 0}
     - target: {fileID: 107357561051586089, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
@@ -13486,11 +13485,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
-        type: 3}
-      propertyPath: m_Text
-      value: Buy a hot dog?
-      objectReference: {fileID: 0}
     - target: {fileID: 107357561309473439, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: changeHunger
@@ -13501,6 +13495,11 @@ PrefabInstance:
       propertyPath: playerStats
       value: 
       objectReference: {fileID: 923934128}
+    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
+        type: 3}
+      propertyPath: m_Text
+      value: Buy a hot dog?
+      objectReference: {fileID: 0}
     - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: m_Text
@@ -13799,11 +13798,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 277263115}
     m_Modifications:
-    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Aktivaattori
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968349, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13869,16 +13863,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.475
       objectReference: {fileID: 0}
+    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Aktivaattori
+      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968350, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: panel
       value: 
       objectReference: {fileID: 1402771116}
-    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916968359727911, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -13903,6 +13897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c13ac273555be4790e8cf4bee7d9ab, type: 3}
@@ -14211,11 +14210,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1505781110}
     m_Modifications:
-    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Aktivaattori
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968349, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14281,16 +14275,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.43172583
       objectReference: {fileID: 0}
+    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Aktivaattori
+      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968350, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: panel
       value: 
       objectReference: {fileID: 1899421866}
-    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916968359727911, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14340,6 +14334,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c13ac273555be4790e8cf4bee7d9ab, type: 3}
@@ -14648,11 +14647,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
-        type: 3}
-      propertyPath: m_Text
-      value: Cold freezing pizza left by somebody.
-      objectReference: {fileID: 0}
     - target: {fileID: 107357561309473439, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: playerStats
@@ -14667,6 +14661,11 @@ PrefabInstance:
         type: 3}
       propertyPath: changeCold
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
+        type: 3}
+      propertyPath: m_Text
+      value: Cold freezing pizza left by somebody.
       objectReference: {fileID: 0}
     - target: {fileID: 107357561051586089, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
@@ -14941,11 +14940,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 562120338}
     m_Modifications:
-    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Aktivaattori
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968349, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15000,6 +14994,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Aktivaattori
       objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968350, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
@@ -15850,7 +15849,7 @@ PrefabInstance:
     - target: {fileID: 5115801802522695033, guid: d55b287eab98d4f64b51e020239b3994,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5115801802522695033, guid: d55b287eab98d4f64b51e020239b3994,
         type: 3}
@@ -15940,6 +15939,11 @@ PrefabInstance:
       propertyPath: speed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5115801802522695032, guid: d55b287eab98d4f64b51e020239b3994,
+        type: 3}
+      propertyPath: playerStats
+      value: 
+      objectReference: {fileID: 923934128}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55b287eab98d4f64b51e020239b3994, type: 3}
 --- !u!4 &1772561862 stripped
@@ -16399,11 +16403,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 825475999}
     m_Modifications:
-    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Aktivaattori
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968349, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16459,20 +16458,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Aktivaattori
+      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968350, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: panel
       value: 
       objectReference: {fileID: 1303456084}
-    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916968359727911, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 6.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c13ac273555be4790e8cf4bee7d9ab, type: 3}
@@ -16617,7 +16621,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822081393}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 3.16, z: -10}
+  m_LocalPosition: {x: -3, y: 3.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1615639209}
@@ -16836,11 +16840,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
-        type: 3}
-      propertyPath: m_Text
-      value: Cold freezing pizza left by somebody.
-      objectReference: {fileID: 0}
     - target: {fileID: 107357561309473439, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: playerStats
@@ -16855,6 +16854,11 @@ PrefabInstance:
         type: 3}
       propertyPath: changeCold
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
+        type: 3}
+      propertyPath: m_Text
+      value: Cold freezing pizza left by somebody.
       objectReference: {fileID: 0}
     - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
@@ -17118,11 +17122,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 560912320}
     m_Modifications:
-    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Aktivaattori
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968349, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17178,20 +17177,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Aktivaattori
+      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968350, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: panel
       value: 
       objectReference: {fileID: 1690978363}
-    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916968359727911, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 6.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126916968359727910, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c13ac273555be4790e8cf4bee7d9ab, type: 3}
@@ -19969,11 +19973,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1320528321}
     m_Modifications:
-    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Aktivaattori
-      objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968349, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20028,6 +20027,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126916970190968348, guid: 70c13ac273555be4790e8cf4bee7d9ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Aktivaattori
       objectReference: {fileID: 0}
     - target: {fileID: 4126916970190968350, guid: 70c13ac273555be4790e8cf4bee7d9ab,
         type: 3}
