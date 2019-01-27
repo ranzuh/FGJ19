@@ -32,16 +32,18 @@ public class Aktivaattori : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Player")
+        if(other.tag == "Player") {
             playerOnTrigger = true;
             spaceImage.gameObject.SetActive(true);
+        }
     }
     
     void OnTriggerExit2D(Collider2D other) {
-        if(other.tag == "Player")
+        if(other.tag == "Player") {
             playerOnTrigger = false;
             panel.gameObject.SetActive(false);
             spaceImage.gameObject.SetActive(false);
+        }
             
     }
 }
