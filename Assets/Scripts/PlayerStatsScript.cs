@@ -36,28 +36,27 @@ public class PlayerStatsScript : MonoBehaviour
         coldText.text = "Cold: " + cold.ToString("F0");
         moneyText.text = "Money: " + money.ToString("F0");
 
+        hunger += loss * Time.deltaTime * hungerMultiplier;
         if (hunger > 0)
         {
             if (hunger > 100)
             {
                 hunger = 100;
             }
-        hunger += loss * Time.deltaTime * hungerMultiplier;
+        
         }
-
         else
         {
             hunger = 0;
         }
 
+        thirsty += loss * Time.deltaTime * thirstyMultiplier;
         if (thirsty > 0)
         {
             if (thirsty > 100)
             {
                 thirsty = 100;
             }
-        thirsty += loss * Time.deltaTime * thirstyMultiplier;
-
         }
 
         else
@@ -65,31 +64,27 @@ public class PlayerStatsScript : MonoBehaviour
             thirsty = 0;
         }
 
+        fatigue += loss * Time.deltaTime * fatigueMultiplier;
         if (fatigue > 0)
         {
             if (fatigue > 100)
             {
                 fatigue = 100;
             }
-            fatigue += loss * Time.deltaTime * fatigueMultiplier;
-
         }
-
         else
         {
             fatigue = 0;
         }
 
+        cold += loss * Time.deltaTime * coldMultiplier;
         if (cold > 0)
         {
             if (cold > 100)
             {
                 cold = 100;
             }
-            cold += loss * Time.deltaTime * coldMultiplier;
-
         }
-
         else
         {
             cold = 0;

@@ -8,6 +8,10 @@ public class PlayerController : MonoBehaviour
     Animator animator;
     Vector2 oldlocalscale;
     public float speed = 10.0f;
+
+    public PlayerStatsScript playerStats;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +24,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float direction = Input.GetAxis("Horizontal");
+        float currentSpeed = speed - playerStats.cold * (speed / 100);
+        Debug.Log(currentSpeed);
 
         if(direction == 0) {
             animator.Play("Idle");
@@ -29,7 +35,7 @@ public class PlayerController : MonoBehaviour
         }
 
         if(transform.position.x > -10 || direction > 0) {
-            transform.Translate(Vector2.right * direction * Time.deltaTime * speed);
+            transform.Translate(Vector2.right * direction * Time.deltaTime * currentSpeed);
         }
 
         
