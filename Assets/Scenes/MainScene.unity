@@ -7625,14 +7625,14 @@ MonoBehaviour:
   hunger: 30
   thirsty: 50
   fatigue: 30
-  cold: 30
+  cold: 0
   money: 100
   loss: 1
   canBuy: 1
-  hungerMultiplier: 0.5
-  thirstyMultiplier: 0.5
-  fatigueMultiplier: 0.7
-  coldMultiplier: 0.1
+  hungerMultiplier: 1
+  thirstyMultiplier: 1
+  fatigueMultiplier: 1
+  coldMultiplier: 1
   hungerText: {fileID: 842890982}
   thirstyText: {fileID: 1899909261}
   fatigueText: {fileID: 311184207}
@@ -10545,6 +10545,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241319352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3, y: 3.16, z: -10}
   m_LocalPosition: {x: -2, y: 3.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -13500,6 +13501,11 @@ PrefabInstance:
       propertyPath: playerStats
       value: 
       objectReference: {fileID: 923934128}
+    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
+        type: 3}
+      propertyPath: m_Text
+      value: Buy a hot dog?
+      objectReference: {fileID: 0}
     - target: {fileID: 107357561051586089, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
       propertyPath: m_Text
@@ -16849,6 +16855,11 @@ PrefabInstance:
         type: 3}
       propertyPath: changeCold
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 107357562556771813, guid: e52855d04efbb5c428ad6dc2a552e026,
+        type: 3}
+      propertyPath: m_Text
+      value: Cold freezing pizza left by somebody.
       objectReference: {fileID: 0}
     - target: {fileID: 107357561051586089, guid: e52855d04efbb5c428ad6dc2a552e026,
         type: 3}
