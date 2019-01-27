@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     Animator animator;
     Vector2 oldlocalscale;
     public float speed = 10.0f;
+    public float coldSpeedModifier = 1;
 
     public PlayerStatsScript playerStats;
 
@@ -24,7 +25,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float direction = Input.GetAxis("Horizontal");
-        float currentSpeed = speed - playerStats.cold * (speed / 100);
+        float currentSpeed = speed - playerStats.cold * (speed / 100) * coldSpeedModifier;
         Debug.Log(currentSpeed);
 
         if(direction == 0) {

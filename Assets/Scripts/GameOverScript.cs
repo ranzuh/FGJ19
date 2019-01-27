@@ -42,7 +42,7 @@ public class GameOverScript : MonoBehaviour
     {
         if (playerStats.hunger >= 100 || playerStats.thirsty >= 100 
         || playerStats.cold >= 100 || puukkojamppa.playerStabbed == true
-        || puukkojamppa2.playerStabbed == true)
+        || puukkojamppa2.playerStabbed == true || playerStats.fatigue >= 100)
         {
             playerDied = true;
         }
@@ -65,6 +65,10 @@ public class GameOverScript : MonoBehaviour
         else if (playerStats.cold >= 100)
         {
             gameOverText.text = "You freeze to death";
+        }
+        else if (playerStats.fatigue >= 100)
+        {
+            gameOverText.text = "You collapse from exhaustion";
         }
         else if (puukkojamppa.playerStabbed)
         {
